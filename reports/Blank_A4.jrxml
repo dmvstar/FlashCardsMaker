@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.4.0.final using JasperReports Library version 6.4.1  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Blank_A4" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="a76aaba8-8c2f-4653-b5f4-bdac4ca99f80">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="FlashCardsData"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<field name="L1_level" class="java.lang.String"/>
+	<field name="L1_title" class="java.lang.String"/>
+	<field name="L1_ident" class="java.lang.String"/>
+	<field name="L1_type" class="java.lang.String"/>
+	<field name="L1_single" class="java.lang.String"/>
+	<field name="L1_word" class="java.lang.String"/>
+	<field name="L1_plural" class="java.lang.String"/>
+	<field name="L1_aword" class="java.lang.String"/>
+	<field name="L1_p1desc" class="java.lang.String"/>
+	<field name="L1_p1word" class="java.lang.String"/>
+	<field name="L1_p2desc" class="java.lang.String"/>
+	<field name="L1_p2word" class="java.lang.String"/>
+	<!--field name="L2_level" class="java.lang.String"/>
+	<field name="L2_title" class="java.lang.String"/>
+	<field name="L2_ident" class="java.lang.String"/>
+	<field name="L2_type" class="java.lang.String"/>
+	<field name="L2_single" class="java.lang.String"/>
+	<field name="L2_word" class="java.lang.String"/>
+	<field name="L2_plural" class="java.lang.String"/>
+	<field name="L2_aword" class="java.lang.String"/>
+	<field name="L2_p1desc" class="java.lang.String"/>
+	<field name="L2_p1word" class="java.lang.String"/>
+	<field name="L2_p2desc" class="java.lang.String"/>
+	<field name="L2_p2word" class="java.lang.String"/-->
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="79" splitType="Stretch"/>
+	</title>
+	<pageHeader>
+		<band height="35" splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="61" splitType="Stretch"/>
+	</columnHeader>
+	<detail>
+		<band height="266" splitType="Stretch">
+			<subreport>
+				<reportElement x="72" y="19" width="200" height="200" uuid="55fa316d-6659-4218-a0e8-d7ba5063ae71"/>
+				<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+				<subreportExpression><![CDATA["reports/FlashKard_A4_1.jasper"]]></subreportExpression>
+			</subreport>
+			<subreport>
+				<reportElement x="300" y="20" width="200" height="200" uuid="01f4db0f-3db7-433a-b50b-cb1d84f6f820"/>
+				<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+				<subreportExpression><![CDATA["reports/FlashKard_A4_1.jasper"]]></subreportExpression>
+			</subreport>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>

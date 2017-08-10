@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<fontFamilies>
+
+	<fontFamily name="Apolonia">
+		<normal>fonts/Apolonia-Regular-2016.ttf</normal>
+		<bold>fonts/Apolonia-Bold-2016.ttf</bold>
+		<italic>fonts/Apolonia-Italic-2016.ttf</italic>
+		<boldItalic>fonts/Apolonia-BoldItalic-2016.ttf</boldItalic>
+		<pdfEncoding>Identity-H</pdfEncoding>
+		<pdfEmbedded>true</pdfEmbedded>
+		<!--
+		<exportFonts>
+			<export key="net.sf.jasperreports.html">'Lobster Two', 'Times New Roman', Times, serif</export>
+		</exportFonts>
+		-->
+	</fontFamily>
+
+</fontFamilies>
