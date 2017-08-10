@@ -6,4 +6,5 @@ A1,Ogólne ,r.m.,rzeczownik ,l.p.,Pieniądz,l.m.,Pieniądze,D.,pieniądze,Ms.,pi
 A1,Ogólne ,r.m.,rzeczownik ,l.p.,Sufit,l.m.,Sufity,D.,sufitu,Ms.,suficie,A1,Обшее ,м.р.,существ. ,ед.ч.,Потолок,мн.ч,Потолки,Рд.,потолке,Пр.,потолке
 A1,Ogólne ,r.m.,rzeczownik ,l.p.,Orzeł,l.m.,Orly,D.,orla,Ms.,orle,A1,Обшее ,м.р.,существ. ,ед.ч.,Орел,мн.ч,Орлы,Рд.,орла,Пр.,орле
 A1,Ogólne ,r.m.,rzeczownik ,l.p.,Księżyc  ,l.m.,Księżyce,D.,księżyca,Ms.,księżycu,A1,Обшее ,м.р.,существ. ,ед.ч.,Месяц,мн.ч,Месяцы,Рд.,месяца,Пр.,месяце
-A1,Ogólne ,,przyimek,,Według,,,Prz,według Herodota,,,,,,предлог,,Cогласно,,по мнению...,Прим,по мнению Геродота,,
+A1,Ogólne ,r.m.,przyimek,,Według,,,Prz,według Herodota,,,A1,Обшее ,,предлог,,согласно,,по мнению,Прим,по мнению Геродота,,
+A1,Ogólne ,dkn,czasownik ,,Uruchomić,Ja,uruchomię,Ty,uruchomiesz,Ja,uruchomiłem,A1,Обшее ,,глагол,,запустить,Я,запускаю,Я,запустил,Ты,запустил
