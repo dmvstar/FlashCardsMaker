@@ -1,10 +1,36 @@
 L1_level,L1_title,L1_ident,L1_type,L1_single,L1_word,L1_plural,L1_aword,L1_p1desc,L1_p1word,L1_p2desc,L1_p2word,L2_level,L2_title,L2_ident,L2_type,L2_single,L2_word,L2_plural,L2_aword,L2_p1desc,L2_p1word,L2_p2desc,L2_p2word
-A1,Ogólne ,r.m.,rzeczownik ,l.p.,Ogród,l.m.,ogrody,D.,ogrodu,Ms.,ogrodzie,A1,Обшее ,м.р.,существ. ,ед.ч.,Сад,мн.ч,Сады,Рд.,саду,Пр.,саду
-A1,Ogólne ,r.m.,rzeczownik ,l.p.,Społeczność,l.m.,Społeczności,Dop.,społeczności,Ms.,społeczności,A1,Обшее ,м.р.,существ. ,ед.ч.,Сообщество,мн.ч,Сообщества,Рд.,,Пр.,
-A1,Ogólne ,r.m.,rzeczownik ,l.p.,Książka,l.z.,książki,D.,książki,Ms.,książce,A1,Обшее ,ж.р.,существ. ,ед.ч.,Книга,мн.ч,Книги,Рд.,книги,Пр.,книге
-A1,Ogólne ,r.m.,rzeczownik ,l.p.,Pieniądz,l.m.,Pieniądze,D.,pieniądze,Ms.,pieniądzu,A1,Обшее ,м.р.,существ. ,ед.ч.,Деньга,мн.ч,Деньги,Рд.,деньги,Пр.,деньге
-A1,Ogólne ,r.m.,rzeczownik ,l.p.,Sufit,l.m.,Sufity,D.,sufitu,Ms.,suficie,A1,Обшее ,м.р.,существ. ,ед.ч.,Потолок,мн.ч,Потолки,Рд.,потолке,Пр.,потолке
-A1,Ogólne ,r.m.,rzeczownik ,l.p.,Orzeł,l.m.,Orly,D.,orla,Ms.,orle,A1,Обшее ,м.р.,существ. ,ед.ч.,Орел,мн.ч,Орлы,Рд.,орла,Пр.,орле
-A1,Ogólne ,r.m.,rzeczownik ,l.p.,Księżyc  ,l.m.,Księżyce,D.,księżyca,Ms.,księżycu,A1,Обшее ,м.р.,существ. ,ед.ч.,Месяц,мн.ч,Месяцы,Рд.,месяца,Пр.,месяце
+A1,Ogólne ,r.m.,rzeczownik ,l.p.,Ogród,l.m.,ogrody,Dop,ogrodu,Msc,ogrodzie,A1,Обшее ,м.р.,существ. ,ед.ч.,Сад,мн.ч,Сады,Рд.,саду,Пр.,саду
+A1,Ogólne ,r.m.,rzeczownik ,l.p.,Społeczność,l.m.,Społeczności,Dop,społeczności,Msc,społeczności,A1,Обшее ,м.р.,существ. ,ед.ч.,Сообщество,мн.ч,Сообщества,Рд.,,Пр.,
+A1,Ogólne ,r.m.,rzeczownik ,l.p.,Książka,l.z.,książki,Dop,książki,Msc,książce,A1,Обшее ,ж.р.,существ. ,ед.ч.,Книга,мн.ч,Книги,Рд.,книги,Пр.,книге
+A1,Ogólne ,r.m.,rzeczownik ,l.p.,Pieniądz,l.m.,Pieniądze,Dop,pieniądze,Msc,pieniądzu,A1,Обшее ,м.р.,существ. ,ед.ч.,Деньга,мн.ч,Деньги,Рд.,деньги,Пр.,деньге
+A1,Ogólne ,r.m.,rzeczownik ,l.p.,Sufit,l.m.,Sufity,Dop,sufitu,Msc,suficie,A1,Обшее ,м.р.,существ. ,ед.ч.,Потолок,мн.ч,Потолки,Рд.,потолке,Пр.,потолке
+A1,Ogólne ,r.m.,rzeczownik ,l.p.,Orzeł,l.m.,Orly,Dop,orla,Msc,orle,A1,Обшее ,м.р.,существ. ,ед.ч.,Орел,мн.ч,Орлы,Рд.,орла,Пр.,орле
+A1,Ogólne ,r.m.,rzeczownik ,l.p.,Księżyc  ,l.m.,Księżyce,Dop,księżyca,Msc,księżycu,A1,Обшее ,м.р.,существ. ,ед.ч.,Месяц,мн.ч,Месяцы,Рд.,месяца,Пр.,месяце
 A1,Ogólne ,r.m.,przyimek,,Według,,,Prz,według Herodota,,,A1,Обшее ,,предлог,,согласно,,по мнению,Прим,по мнению Геродота,,
 A1,Ogólne ,dkn,czasownik ,,Uruchomić,Ja,uruchomię,Ty,uruchomiesz,Ja,uruchomiłem,A1,Обшее ,,глагол,,запустить,Я,запускаю,Я,запустил,Ты,запустил
+A1,Ogólne ,r.m.,rzeczownik ,l.p.,błąd,l.m.,błędy,,,,,A1,Обшее ,м.р.,существ. ,ед.ч.,ошибка,мн.ч,ошибки,,,,
+A1,Ogólne ,r.m.,rzeczownik ,l.p.,zachowanie,l.m.,zachowania,,,Msc,,A1,Обшее ,м.р.,существ. ,ед.ч.,поведение,мн.ч,,Рд.,,Пр.,
+A1,Ogólne ,r.m.,rzeczownik ,l.p.,opinie,l.m.,opinia,,,,,A1,Обшее ,м.р.,существ. ,ед.ч.,мнение,,,,,,
+A1,Ogólne ,r.m.,rzeczownik ,l.p.,opętanie,,,,,,,A1,Обшее ,м.р.,существ. ,ед.ч.,одержимость,,,,,,
+A1,Ogólne ,r.m.,rzeczownik ,l.p.,bezczelność,,,,,,,A1,Обшее ,м.р.,существ. ,ед.ч.,наглость,,,,,,
+A1,Ogólne ,r.m.,rzeczownik ,l.p.,czyn,l.m.,czyny,,,,,A1,Обшее ,м.р.,существ. ,ед.ч.,действие,,,,,,
+A1,Ogólne ,r.m.,rzeczownik ,l.p.,kłamstwo,l.m.,kłamstwa,,kłamstwa,,kłamstwu,A1,Обшее ,м.р.,существ. ,ед.ч.,вранье,,,,,,
+A1,Ogólne ,r.m.,rzeczownik ,l.p.,rodzina,l.m.,rodziny,,,,,A1,Обшее ,м.р.,существ. ,ед.ч.,семья,,,,,,
+A1,Ogólne ,r.m.,rzeczownik ,l.p.,rodzic,l.m.,rodzice,,,,,A1,Обшее ,м.р.,существ. ,ед.ч.,родитель,,родители,,,,
+A1,Ogólne ,r.m.,rzeczownik ,l.p.,rodzeństwo,l.m.,rodzeństwo,,,,,A1,Обшее ,м.р.,существ. ,ед.ч.,братья сестры,,,,,,
+A1,Ogólne ,r.m.,rzeczownik ,l.p.,klisza,l.m.,klisze,,,,,A1,Обшее ,м.р.,существ. ,ед.ч.,фотопленка,,,,,,
+A1,Ogólne ,r.m.,rzeczownik ,l.p.,skutek,l.m.,skutki,,,,,A1,Обшее ,м.р.,существ. ,ед.ч.,эффект,,,,,,
+A1,Ogólne ,r.m.,rzeczownik ,l.p.,warunek,l.m.,warunki,,,,,A1,Обшее ,м.р.,существ. ,ед.ч.,условие,,,,,,
+A1,Ogólne ,r.m.,rzeczownik ,l.p.,przebieg,l.m.,przebiegi,,,,,A1,Обшее ,м.р.,существ. ,ед.ч.,процесс,,,,,,
+A1,Ogólne ,r.m.,rzeczownik ,l.p.,wydarzenie,l.m.,wydarzenia,,,,,A1,Обшее ,м.р.,существ. ,ед.ч.,событие,,,,,,
+A1,Ogólne ,r.m.,rzeczownik ,l.p.,obojętność,l.m.,obojętność,,,,,A1,Обшее ,м.р.,существ. ,ед.ч.,безразличие,,,,,,
+A1,Ogólne ,r.m.,rzeczownik ,l.p.,ustawienie,l.m.,ustawienia,,,,,A1,Обшее ,м.р.,существ. ,ед.ч.,параметры,,,,,,
+A1,Ogólne ,r.m.,rzeczownik ,l.p.,domysł ,l.m.,domysły ,,,,,A1,Обшее ,м.р.,существ. ,ед.ч.,догадка,,,,,,
+A1,Ogólne ,r.m.,rzeczownik ,l.p.,przydomek,l.m.,przydomki,,,,,A1,Обшее ,м.р.,существ. ,ед.ч.,прозвище,,,,,,
+A1,Ogólne ,r.m.,rzeczownik ,l.p.,gałąź,l.m.,gałęzie,,,,,A1,Обшее ,м.р.,существ. ,ед.ч.,ветка,,,,,,
+A1,Ogólne ,r.m.,rzeczownik ,l.p.,lącznościowiec,l.m.,lącznościowcy,,,,,A1,Обшее ,м.р.,существ. ,ед.ч.,связист,,,,,,
+A1,Ogólne ,r.m.,rzeczownik ,l.p.,lączność,l.m.,lączność,,,,,A1,Обшее ,м.р.,существ. ,ед.ч.,связь,,,,,,
+A1,Ogólne ,r.m.,rzeczownik ,l.p.,przyczyna,l.m.,przyczyny,,,,,A1,Обшее ,м.р.,существ. ,ед.ч.,причина,,,,,,
+A1,Ogólne ,r.m.,rzeczownik ,l.p.,stosunek,l.m.,stosunki,,,,,A1,Обшее ,м.р.,существ. ,ед.ч.,связь,,,,,,
+A1,Ogólne ,r.m.,rzeczownik ,l.p.,skutek,l.m.,skutki,,,,,A1,Обшее ,м.р.,существ. ,ед.ч.,следствие,,,,,,
+A1,Ogólne ,r.m.,rzeczownik ,l.p.,pojęcie,l.m.,pojęcia,Dop,pojęcia,Msc,pojęciu,A1,Обшее ,м.р.,существ. ,ед.ч.,понятие,,,,,,
