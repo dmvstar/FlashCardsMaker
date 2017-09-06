@@ -1,36 +1,71 @@
-L1_level,L1_title,L1_ident,L1_type,L1_single,L1_word,L1_plural,L1_aword,L1_p1desc,L1_p1word,L1_p2desc,L1_p2word,L2_level,L2_title,L2_ident,L2_type,L2_single,L2_word,L2_plural,L2_aword,L2_p1desc,L2_p1word,L2_p2desc,L2_p2word
-A1,OgГіlne ,r.m.,rzeczownik ,l.p.,OgrГіd,l.m.,ogrody,Dop,ogrodu,Msc,ogrodzie,A1,РћР±С€РµРµ ,Рј.СЂ.,СЃСѓС‰РµСЃС‚РІ. ,РµРґ.С‡.,РЎР°Рґ,РјРЅ.С‡,РЎР°РґС‹,Р Рґ.,СЃР°РґСѓ,РџСЂ.,СЃР°РґСѓ
-A1,OgГіlne ,r.m.,rzeczownik ,l.p.,SpoЕ‚ecznoЕ›Д‡,l.m.,SpoЕ‚ecznoЕ›ci,Dop,spoЕ‚ecznoЕ›ci,Msc,spoЕ‚ecznoЕ›ci,A1,РћР±С€РµРµ ,Рј.СЂ.,СЃСѓС‰РµСЃС‚РІ. ,РµРґ.С‡.,РЎРѕРѕР±С‰РµСЃС‚РІРѕ,РјРЅ.С‡,РЎРѕРѕР±С‰РµСЃС‚РІР°,Р Рґ.,,РџСЂ.,
-A1,OgГіlne ,r.m.,rzeczownik ,l.p.,KsiД…Ејka,l.z.,ksiД…Ејki,Dop,ksiД…Ејki,Msc,ksiД…Ејce,A1,РћР±С€РµРµ ,Р¶.СЂ.,СЃСѓС‰РµСЃС‚РІ. ,РµРґ.С‡.,РљРЅРёРіР°,РјРЅ.С‡,РљРЅРёРіРё,Р Рґ.,РєРЅРёРіРё,РџСЂ.,РєРЅРёРіРµ
-A1,OgГіlne ,r.m.,rzeczownik ,l.p.,PieniД…dz,l.m.,PieniД…dze,Dop,pieniД…dze,Msc,pieniД…dzu,A1,РћР±С€РµРµ ,Рј.СЂ.,СЃСѓС‰РµСЃС‚РІ. ,РµРґ.С‡.,Р”РµРЅСЊРіР°,РјРЅ.С‡,Р”РµРЅСЊРіРё,Р Рґ.,РґРµРЅСЊРіРё,РџСЂ.,РґРµРЅСЊРіРµ
-A1,OgГіlne ,r.m.,rzeczownik ,l.p.,Sufit,l.m.,Sufity,Dop,sufitu,Msc,suficie,A1,РћР±С€РµРµ ,Рј.СЂ.,СЃСѓС‰РµСЃС‚РІ. ,РµРґ.С‡.,РџРѕС‚РѕР»РѕРє,РјРЅ.С‡,РџРѕС‚РѕР»РєРё,Р Рґ.,РїРѕС‚РѕР»РєРµ,РџСЂ.,РїРѕС‚РѕР»РєРµ
-A1,OgГіlne ,r.m.,rzeczownik ,l.p.,OrzeЕ‚,l.m.,Orly,Dop,orla,Msc,orle,A1,РћР±С€РµРµ ,Рј.СЂ.,СЃСѓС‰РµСЃС‚РІ. ,РµРґ.С‡.,РћСЂРµР»,РјРЅ.С‡,РћСЂР»С‹,Р Рґ.,РѕСЂР»Р°,РџСЂ.,РѕСЂР»Рµ
-A1,OgГіlne ,r.m.,rzeczownik ,l.p.,KsiД™Ејyc  ,l.m.,KsiД™Ејyce,Dop,ksiД™Ејyca,Msc,ksiД™Ејycu,A1,РћР±С€РµРµ ,Рј.СЂ.,СЃСѓС‰РµСЃС‚РІ. ,РµРґ.С‡.,РњРµСЃСЏС†,РјРЅ.С‡,РњРµСЃСЏС†С‹,Р Рґ.,РјРµСЃСЏС†Р°,РџСЂ.,РјРµСЃСЏС†Рµ
-A1,OgГіlne ,r.m.,przyimek,,WedЕ‚ug,,,Prz,wedЕ‚ug Herodota,,,A1,РћР±С€РµРµ ,,РїСЂРµРґР»РѕРі,,СЃРѕРіР»Р°СЃРЅРѕ,,РїРѕ РјРЅРµРЅРёСЋ,РџСЂРёРј,РїРѕ РјРЅРµРЅРёСЋ Р“РµСЂРѕРґРѕС‚Р°,,
-A1,OgГіlne ,dkn,czasownik ,,UruchomiД‡,Ja,uruchomiД™,Ty,uruchomiesz,Ja,uruchomiЕ‚em,A1,РћР±С€РµРµ ,,РіР»Р°РіРѕР»,,Р·Р°РїСѓСЃС‚РёС‚СЊ,РЇ,Р·Р°РїСѓСЃРєР°СЋ,РЇ,Р·Р°РїСѓСЃС‚РёР»,РўС‹,Р·Р°РїСѓСЃС‚РёР»
-A1,OgГіlne ,r.m.,rzeczownik ,l.p.,bЕ‚Д…d,l.m.,bЕ‚Д™dy,,,,,A1,РћР±С€РµРµ ,Рј.СЂ.,СЃСѓС‰РµСЃС‚РІ. ,РµРґ.С‡.,РѕС€РёР±РєР°,РјРЅ.С‡,РѕС€РёР±РєРё,,,,
-A1,OgГіlne ,r.m.,rzeczownik ,l.p.,zachowanie,l.m.,zachowania,,,Msc,,A1,РћР±С€РµРµ ,Рј.СЂ.,СЃСѓС‰РµСЃС‚РІ. ,РµРґ.С‡.,РїРѕРІРµРґРµРЅРёРµ,РјРЅ.С‡,,Р Рґ.,,РџСЂ.,
-A1,OgГіlne ,r.m.,rzeczownik ,l.p.,opinie,l.m.,opinia,,,,,A1,РћР±С€РµРµ ,Рј.СЂ.,СЃСѓС‰РµСЃС‚РІ. ,РµРґ.С‡.,РјРЅРµРЅРёРµ,,,,,,
-A1,OgГіlne ,r.m.,rzeczownik ,l.p.,opД™tanie,,,,,,,A1,РћР±С€РµРµ ,Рј.СЂ.,СЃСѓС‰РµСЃС‚РІ. ,РµРґ.С‡.,РѕРґРµСЂР¶РёРјРѕСЃС‚СЊ,,,,,,
-A1,OgГіlne ,r.m.,rzeczownik ,l.p.,bezczelnoЕ›Д‡,,,,,,,A1,РћР±С€РµРµ ,Рј.СЂ.,СЃСѓС‰РµСЃС‚РІ. ,РµРґ.С‡.,РЅР°РіР»РѕСЃС‚СЊ,,,,,,
-A1,OgГіlne ,r.m.,rzeczownik ,l.p.,czyn,l.m.,czyny,,,,,A1,РћР±С€РµРµ ,Рј.СЂ.,СЃСѓС‰РµСЃС‚РІ. ,РµРґ.С‡.,РґРµР№СЃС‚РІРёРµ,,,,,,
-A1,OgГіlne ,r.m.,rzeczownik ,l.p.,kЕ‚amstwo,l.m.,kЕ‚amstwa,,kЕ‚amstwa,,kЕ‚amstwu,A1,РћР±С€РµРµ ,Рј.СЂ.,СЃСѓС‰РµСЃС‚РІ. ,РµРґ.С‡.,РІСЂР°РЅСЊРµ,,,,,,
-A1,OgГіlne ,r.m.,rzeczownik ,l.p.,rodzina,l.m.,rodziny,,,,,A1,РћР±С€РµРµ ,Рј.СЂ.,СЃСѓС‰РµСЃС‚РІ. ,РµРґ.С‡.,СЃРµРјСЊСЏ,,,,,,
-A1,OgГіlne ,r.m.,rzeczownik ,l.p.,rodzic,l.m.,rodzice,,,,,A1,РћР±С€РµРµ ,Рј.СЂ.,СЃСѓС‰РµСЃС‚РІ. ,РµРґ.С‡.,СЂРѕРґРёС‚РµР»СЊ,,СЂРѕРґРёС‚РµР»Рё,,,,
-A1,OgГіlne ,r.m.,rzeczownik ,l.p.,rodzeЕ„stwo,l.m.,rodzeЕ„stwo,,,,,A1,РћР±С€РµРµ ,Рј.СЂ.,СЃСѓС‰РµСЃС‚РІ. ,РµРґ.С‡.,Р±СЂР°С‚СЊСЏ СЃРµСЃС‚СЂС‹,,,,,,
-A1,OgГіlne ,r.m.,rzeczownik ,l.p.,klisza,l.m.,klisze,,,,,A1,РћР±С€РµРµ ,Рј.СЂ.,СЃСѓС‰РµСЃС‚РІ. ,РµРґ.С‡.,С„РѕС‚РѕРїР»РµРЅРєР°,,,,,,
-A1,OgГіlne ,r.m.,rzeczownik ,l.p.,skutek,l.m.,skutki,,,,,A1,РћР±С€РµРµ ,Рј.СЂ.,СЃСѓС‰РµСЃС‚РІ. ,РµРґ.С‡.,СЌС„С„РµРєС‚,,,,,,
-A1,OgГіlne ,r.m.,rzeczownik ,l.p.,warunek,l.m.,warunki,,,,,A1,РћР±С€РµРµ ,Рј.СЂ.,СЃСѓС‰РµСЃС‚РІ. ,РµРґ.С‡.,СѓСЃР»РѕРІРёРµ,,,,,,
-A1,OgГіlne ,r.m.,rzeczownik ,l.p.,przebieg,l.m.,przebiegi,,,,,A1,РћР±С€РµРµ ,Рј.СЂ.,СЃСѓС‰РµСЃС‚РІ. ,РµРґ.С‡.,РїСЂРѕС†РµСЃСЃ,,,,,,
-A1,OgГіlne ,r.m.,rzeczownik ,l.p.,wydarzenie,l.m.,wydarzenia,,,,,A1,РћР±С€РµРµ ,Рј.СЂ.,СЃСѓС‰РµСЃС‚РІ. ,РµРґ.С‡.,СЃРѕР±С‹С‚РёРµ,,,,,,
-A1,OgГіlne ,r.m.,rzeczownik ,l.p.,obojД™tnoЕ›Д‡,l.m.,obojД™tnoЕ›Д‡,,,,,A1,РћР±С€РµРµ ,Рј.СЂ.,СЃСѓС‰РµСЃС‚РІ. ,РµРґ.С‡.,Р±РµР·СЂР°Р·Р»РёС‡РёРµ,,,,,,
-A1,OgГіlne ,r.m.,rzeczownik ,l.p.,ustawienie,l.m.,ustawienia,,,,,A1,РћР±С€РµРµ ,Рј.СЂ.,СЃСѓС‰РµСЃС‚РІ. ,РµРґ.С‡.,РїР°СЂР°РјРµС‚СЂС‹,,,,,,
-A1,OgГіlne ,r.m.,rzeczownik ,l.p.,domysЕ‚ ,l.m.,domysЕ‚y ,,,,,A1,РћР±С€РµРµ ,Рј.СЂ.,СЃСѓС‰РµСЃС‚РІ. ,РµРґ.С‡.,РґРѕРіР°РґРєР°,,,,,,
-A1,OgГіlne ,r.m.,rzeczownik ,l.p.,przydomek,l.m.,przydomki,,,,,A1,РћР±С€РµРµ ,Рј.СЂ.,СЃСѓС‰РµСЃС‚РІ. ,РµРґ.С‡.,РїСЂРѕР·РІРёС‰Рµ,,,,,,
-A1,OgГіlne ,r.m.,rzeczownik ,l.p.,gaЕ‚Д…Еє,l.m.,gaЕ‚Д™zie,,,,,A1,РћР±С€РµРµ ,Рј.СЂ.,СЃСѓС‰РµСЃС‚РІ. ,РµРґ.С‡.,РІРµС‚РєР°,,,,,,
-A1,OgГіlne ,r.m.,rzeczownik ,l.p.,lД…cznoЕ›ciowiec,l.m.,lД…cznoЕ›ciowcy,,,,,A1,РћР±С€РµРµ ,Рј.СЂ.,СЃСѓС‰РµСЃС‚РІ. ,РµРґ.С‡.,СЃРІСЏР·РёСЃС‚,,,,,,
-A1,OgГіlne ,r.m.,rzeczownik ,l.p.,lД…cznoЕ›Д‡,l.m.,lД…cznoЕ›Д‡,,,,,A1,РћР±С€РµРµ ,Рј.СЂ.,СЃСѓС‰РµСЃС‚РІ. ,РµРґ.С‡.,СЃРІСЏР·СЊ,,,,,,
-A1,OgГіlne ,r.m.,rzeczownik ,l.p.,przyczyna,l.m.,przyczyny,,,,,A1,РћР±С€РµРµ ,Рј.СЂ.,СЃСѓС‰РµСЃС‚РІ. ,РµРґ.С‡.,РїСЂРёС‡РёРЅР°,,,,,,
-A1,OgГіlne ,r.m.,rzeczownik ,l.p.,stosunek,l.m.,stosunki,,,,,A1,РћР±С€РµРµ ,Рј.СЂ.,СЃСѓС‰РµСЃС‚РІ. ,РµРґ.С‡.,СЃРІСЏР·СЊ,,,,,,
-A1,OgГіlne ,r.m.,rzeczownik ,l.p.,skutek,l.m.,skutki,,,,,A1,РћР±С€РµРµ ,Рј.СЂ.,СЃСѓС‰РµСЃС‚РІ. ,РµРґ.С‡.,СЃР»РµРґСЃС‚РІРёРµ,,,,,,
-A1,OgГіlne ,r.m.,rzeczownik ,l.p.,pojД™cie,l.m.,pojД™cia,Dop,pojД™cia,Msc,pojД™ciu,A1,РћР±С€РµРµ ,Рј.СЂ.,СЃСѓС‰РµСЃС‚РІ. ,РµРґ.С‡.,РїРѕРЅСЏС‚РёРµ,,,,,,
+L1_level|L1_title|L1_ident|L1_type|L1_single|L1_word|L1_plural|L1_aword|L1_p1desc|L1_p1word|L1_p2desc|L1_p2word|L1_example|
+A1|Og?lne |r.m.|rzeczownik|l.p.|Ogr?d|l.m.|ogrody|Dop|ogrodu|Ms.|ogrodzie||
+A1|Обшее |м.р.|существительное|ед.ч.|Сад|мн.ч|сады|Рд.|саду|Пр.|саду||
+A1|Og?lne |r.m.|rzeczownik|l.p.|Ksi??ka|l.z.|ksi??ki|Dop|ksi??ki|Ms.|ksi??ce||
+A1|Обшее |ж.р.|существительное|ед.ч.|Книга|мн.ч|книги|Рд.|книги|Пр.|книге||
+A1|Og?lne |r.m.|rzeczownik|l.p.|Spo?eczno??|l.m.|spo?eczno?ci|Dop|spo?eczno?ci|Ms.|spo?eczno?ci||
+A1|Обшее |м.р.|существительное|ед.ч.|Сообщество|мн.ч|сообщества|Рд.||Пр.|||
+A1|Og?lne |r.m.|rzeczownik|l.p.|Ksi??yc  |l.m.|ksi??yce|Dop|ksi??yca|Ms.|ksi??ycu|ludzie marzyli dosta? si? ksi??yca oraz zosta? na ksi??ycu|
+A1|Обшее |м.р.|существительное|ед.ч.|Месяц|мн.ч|месяцы|Рд.|месяца|Пр.|месяце||
+A1|Og?lne |r.m.|przyimek||Wed?ug|||Prz|wed?ug Herodota|||wed?ug Herodota|
+A1|Og?lne ||предлог||Согласно||по мнению|Прим|по мнению Геродота|||по мнению Геродота|
+A1|Og?lne |dkn|czasownik ||Uruchomi?|Ja|uruchomi?|Ty|uruchomiesz|Ja|uruchomi?em|Aplikacja uruchamia si?|
+A1|Обшее ||глагол||Запустить|Я|запускаю|Ты|запускаешь|Я|запустил|Приложение запускается|
+A1|Og?lne |r.m.|rzeczownik |l.p.|B??d|l.m.|b??dy|||||W tym zdaniu s? du?o b??d?w|
+A1|Обшее ||существительное|ед.ч.|Ошибка|мн.ч|ошибки|||||В предложении много ошибок|
+A1|Og?lne |r.m.|rzeczownik|l.p.|Zachowanie|l.m.|zachowania|||Msc|||
+A1|Обшее ||существительное|ед.ч.|Поведение|мн.ч|поведения||||||
+A1|Og?lne |r.m.|rzeczownik|l.p.|Opinie|l.m.|opinia||||||
+A1|Обшее ||существительное|ед.ч.|Мнение|мн.ч|мнения||||||
+A1|Og?lne |r.m.|rzeczownik|l.p.|Op?tanie|l.m.|op?tanфe||||||
+A1|Обшее ||существительное|ед.ч.|Одержимость|мн.ч|одержимости||||||
+A1|Og?lne |r.z.|rzeczownik|l.p.|Bezczelno??|l.m.|bezczelno?ci|||||swoj? bezczelno?ci? zburzyl wsz?dzie|
+A1|Обшее |ж.р.|существительное|ед.ч.|Наглость|мн.ч|наглости||||||
+A1|Og?lne |r.m.|rzeczownik|l.p.|Czyn|l.m.|czyny||||||
+A1|Обшее ||существительное|ед.ч.|Действие|мн.ч|действия||||||
+A1|Og?lne |r.m.|rzeczownik |l.p.|K?amstwo|l.m.|k?amstwa||k?amstwa||k?amstwu||
+A1|Обшее ||существительное|ед.ч.|Вранье|мн.ч|-||||||
+A1|Og?lne |r.m.|rzeczownik |l.p.|Rodzina|l.m.|rodziny||||||
+A1|Обшее ||существительное|ед.ч.|Семья|мн.ч|семьи||||||
+A1|Og?lne |r.m.|rzeczownik |l.p.|Rodzic|l.m.|rodzice||||||
+A1|Обшее ||существительное|ед.ч.|Родитель|мн.ч|родители||||||
+A1|Og?lne |r.m.|rzeczownik |l.p.|Rodze?stwo|l.m.|rodze?stwo||||||
+A1|Обшее ||существительное|ед.ч.|Братья сестры|мн.ч|||||||
+A1|Og?lne |r.m.|rzeczownik |l.p.|Klisza|l.m.|klisze||||||
+A1|Обшее ||существительное|ед.ч.|Фотопленка|мн.ч|фотопленки||||||
+A1|Og?lne |r.m.|rzeczownik |l.p.|Skutek|l.m.|skutki||||||
+A1|Обшее ||существительное|ед.ч.|Эффект|мн.ч|эффекты||||||
+A1|Og?lne |r.m.|rzeczownik |l.p.|Warunek|l.m.|warunki|||||w sw? drog? ?yciow?|
+A1|Обшее ||существительное|ед.ч.|Условие|мн.ч|условия||||||
+A1|Og?lne |r.m.|rzeczownik |l.p.|Przebieg|l.m.|przebiegi||||||
+A1|Обшее ||существительное|ед.ч.|Процесс|мн.ч|процессы||||||
+A1|Og?lne |r.m.|rzeczownik |l.p.|Wydarzenie|l.m.|wydarzenia||||||
+A1|Обшее ||существительное|ед.ч.|Событие|мн.ч|события||||||
+A1|Og?lne |r.m.|rzeczownik |l.p.|Oboj?tno??|l.m.|oboj?tno??||||||
+A1|Обшее ||существительное|ед.ч.|Безразличие|мн.ч|безразличия||||||
+A1|Og?lne |r.m.|rzeczownik |l.p.|Ustawienie|l.m.|ustawienia|||||ustawienia domy?lne|
+A1|Обшее ||существительное|ед.ч.|Параметр|мн.ч|параметры|||||параметры по умолчанию|
+A1|Og?lne |r.m.|rzeczownik |l.p.|Domys? |l.m.|domys?y ||||||
+A1|Обшее ||существительное|ед.ч.|Догадка|мн.ч|догадки||||||
+A1|Og?lne |r.m.|rzeczownik |l.p.|Przydomek|l.m.|przydomki||||||
+A1|Обшее ||существительное|ед.ч.|Прозвище|мн.ч|прозвища||||||
+A1|Og?lne |r.z.|rzeczownik |l.p.|Ga???|l.m.|ga??zie||||||
+A1|Обшее |ж.р.|существительное|ед.ч.|Ветка|мн.ч|ветки||||||
+A1|Og?lne |r.m.|rzeczownik |l.p.|L?czno?ciowiec|l.m.|l?czno?ciowcy||||||
+A1|Обшее |м.р.|существительное|ед.ч.|Связист|мн.ч|связисты||||||
+A1|Og?lne |r.z.|rzeczownik |l.p.|L?czno??|l.m.|l?czno??||||||
+A1|Обшее |ж.р.|существительное|ед.ч.|Связь|мн.ч|связи||||||
+A1|Og?lne |r.m.|rzeczownik|l.p.|Przyczyna|l.m.|przyczyny||||||
+A1|Обшее |ж.р.|существительное|ед.ч.|Причина|мн.ч|причины||||||
+A1|Og?lne |r.m.|rzeczownik|l.p.|Stosunek|l.m.|stosunki|||||on ma stosunki z t? lask?|
+A1|Обшее |ж.р.|существительное|ед.ч.|Связь отношение|мн.ч|связи||||||
+A1|Og?lne |r.m.|rzeczownik|l.p.|Skutek|l.m.|skutki||||||
+A1|Обшее |с.р.|существительное|ед.ч.|Следствие|мн.ч|следствия||||||
+A1|Og?lne |r.n.|rzeczownik|l.p.|Poj?cie|l.m.|poj?cia|Dop|poj?cia|Msc|poj?ciu|nie mam zadnego poj?cia|
+A1|Обшее |с.р.|существительное|ед.ч.|Понятие|мн.ч|понятия|Род|понятия|Пре|понятии|без малейшего понятия|
+A1|Og?lne ||sp?jnik||Poniewa?|||||||poniewa?, ze wzgl?du na go osobisto?? oraz zachowanie musieli?my to zrobi?| 
+A1|Обшее ||союз||Потому что||||||||
+A1|Og?lne |r.m.|rzeczownik|l.p.|Parawan|l.m.|parawany||||||
+A1|Обшее |ж.р.|существительное|ед.ч.|Ширма|мн.ч|ширмы||||||
+A1|Og?lne |r.n.|rzeczownik|l.p.|Uczucie|l.m.|uczucia|||||tysi?c uczu?|
+A1|Обшее |с.р.|существительное|ед.ч.|Чувство|мн.ч|чувства||||||

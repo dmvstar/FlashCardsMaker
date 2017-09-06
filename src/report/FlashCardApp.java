@@ -43,7 +43,8 @@ public class FlashCardApp extends AbstractSampleApp {
 		long start = System.currentTimeMillis();
 
 		dataSource = new TransformDataSource("data/flashCard.csv");
-		dataSource.transform();
+		
+		dataSource.transformFromTwo();
 		
 		System.err.println("Prepare time : " + (System.currentTimeMillis() - start));
 		
