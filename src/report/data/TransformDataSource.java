@@ -67,9 +67,10 @@ public class TransformDataSource extends AbstractSampleApp implements JRDataSour
 		dataSource.setRecordDelimiter("\r\n");
 		dataSource.setFieldDelimiter('|');
 
-		mDataRow = new HashMap();
+		mDataArray = new ArrayList();
+		
 		while (dataSource.next()) {
-
+		
 			if (firstRow) {
 				mColumnNames = dataSource.getColumnNames();
 				mKeySet = mColumnNames.keySet();
@@ -78,6 +79,13 @@ public class TransformDataSource extends AbstractSampleApp implements JRDataSour
 				System.err.println("transform : " + mColumnNames);
 			}
 
+			if (totalCount % 2 == 0){ 
+				// Main lang
+				totalCountMain++;
+				mDataRow = new HashMap();
+			} else {
+				mDataRow = mDataArray.get(totalCountMain-1);
+			}
 
 			for (int i = 0; i < mKeySetObj.length; i++) {
 
@@ -87,30 +95,39 @@ public class TransformDataSource extends AbstractSampleApp implements JRDataSour
 				String nameOld = mKeySetObj[i].toString();
 				Object value = dataSource.getFieldValue(new JRStubField(nameOld));
 
-				if (totalCount % 2 != 0) {
+				if (totalCount % 2 == 0) {
 					// Main lang
-					totalCountMain++;
-					mode = MODE_FRONT;
 					valueTwoContainer = new TwoValueContainer();
+					mode = MODE_FRONT;
 					valueTwoContainer.mName = nameOld;
 					valueTwoContainer.mFirst = new CustomValueContainer(mode, nameOld, value);
+					mDataRow.put(nameOld, valueTwoContainer);
 				} else {
 					// Second lang
 					mode = MODE_BACK;
-					valueTwoContainer.mName = nameOld;
+					valueTwoContainer = mDataRow.get(nameOld); 
 					valueTwoContainer.mSecnd = new CustomValueContainer(mode, nameOld, value);
 					mDataRow.put(nameOld, valueTwoContainer);
 				}
-				mDataArray.add(mDataRow);
 			}
+			
+			if (totalCount % 2 == 0){ 
+				// Main lang
+				mDataArray.add(mDataRow);
+			} else {
+				mDataArray.add(totalCountMain-1, mDataRow);
+				System.out.println(mDataRow);
+			}
+			
 			totalCount++;
 		}
 
-		if (totalCount % 2 != 0) {
+		
+		if (totalCountMain % 2 != 0) {
 			mDataRow = addEmptyDataRow(mDataArray.get(0));
 			mDataArray.add(mDataRow);
 		}
-
+				
 		reverseBack();
 
 		System.err.println("Transform time : " + (System.currentTimeMillis() - start));
