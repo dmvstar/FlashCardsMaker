@@ -16,9 +16,8 @@
 	<field name="L1_aword" class="java.lang.String"/>
 	<field name="L1_p1desc" class="java.lang.String"/>
 	<field name="L1_p1word" class="java.lang.String"/>
-	<field name="L1_p1desc" class="java.lang.String"/>
-	<field name="L1_p1word" class="java.lang.String"/>
-	<field name="L1_example" class="java.lang.String"/>
+	<field name="L1_p2desc" class="java.lang.String"/>
+	<field name="L1_p2word" class="java.lang.String"/>
 	<background>
 		<band splitType="Stretch"/>
 	</background>

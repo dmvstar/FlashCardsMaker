@@ -232,8 +232,8 @@ public class TransformDataSource extends AbstractSampleApp implements JRDataSour
 			HashMap<String, TwoValueContainer> mDataRow2 = mDataArray.get(i + 1);
 			// 0<>1, 1<>2
 
-			// System.err.println("reverseBack : " +
-			// "\n["+mDataRow1+"]\n["+mDataRow2+"]");
+			System.err.println("reverseBack : " +
+			"\n["+mDataRow1+"]\n["+mDataRow2+"]");
 
 			java.util.Iterator<String> itr = mDataRow1.keySet().iterator();
 			while (itr.hasNext()) {
