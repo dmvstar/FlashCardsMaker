@@ -115,13 +115,12 @@ public class TransformDataSource extends AbstractSampleApp implements JRDataSour
 				// Main lang
 				mDataArray.add(mDataRow);
 			} else {
-				mDataArray.add(totalCountMain-1, mDataRow);
-				System.out.println(mDataRow);
+				mDataArray.set(totalCountMain-1, mDataRow);
+				//System.out.println("mDataRow["+totalCountMain+"]"+mDataRow);
 			}
 			
 			totalCount++;
 		}
-
 		
 		if (totalCountMain % 2 != 0) {
 			mDataRow = addEmptyDataRow(mDataArray.get(0));
@@ -232,8 +231,8 @@ public class TransformDataSource extends AbstractSampleApp implements JRDataSour
 			HashMap<String, TwoValueContainer> mDataRow2 = mDataArray.get(i + 1);
 			// 0<>1, 1<>2
 
-			System.err.println("reverseBack : " +
-			"\n["+mDataRow1+"]\n["+mDataRow2+"]");
+			//System.err.println("reverseBack["+i+"]["+mDataArray.size()+"] : " +
+			//"\n["+mDataRow1+"]\n["+mDataRow2+"]");
 
 			java.util.Iterator<String> itr = mDataRow1.keySet().iterator();
 			while (itr.hasNext()) {

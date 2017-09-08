@@ -17,7 +17,6 @@
 	<field name="L1_p1desc" class="java.lang.String"/>
 	<field name="L1_p1word" class="java.lang.String"/>
 	<field name="L1_p2desc" class="java.lang.String"/>
-	<field name="L1_p2word" class="java.lang.String"/>
 	<field name="L1_example" class="java.lang.String"/>
 	<background>
 		<band splitType="Stretch"/>
@@ -72,7 +71,7 @@
 				</graphicElement>
 			</rectangle>
 			<rectangle>
-				<reportElement x="31" y="83" width="210" height="28" backcolor="#D6FFDC" uuid="4d7dd76d-fc1b-473f-9c9b-e49ac041516f"/>
+				<reportElement x="31" y="83" width="210" height="28" backcolor="#FEFFEB" uuid="4d7dd76d-fc1b-473f-9c9b-e49ac041516f"/>
 				<graphicElement>
 					<pen lineWidth="0.5"/>
 				</graphicElement>
@@ -125,7 +124,7 @@
 				<textFieldExpression><![CDATA[$F{L1_single}]]></textFieldExpression>
 			</textField>
 			<textField>
-				<reportElement x="35" y="64" width="177" height="16" forecolor="#005924" uuid="8bfe0083-36e9-4992-ad83-632c3ae7c0e4">
+				<reportElement x="35" y="64" width="177" height="16" uuid="8bfe0083-36e9-4992-ad83-632c3ae7c0e4">
 					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
 				</reportElement>
 				<textElement textAlignment="Center" verticalAlignment="Middle">
@@ -143,11 +142,11 @@
 				<textFieldExpression><![CDATA[$F{L1_plural}]]></textFieldExpression>
 			</textField>
 			<staticText>
-				<reportElement x="212" y="102" width="26" height="7" forecolor="#5C5C5C" uuid="df0eff69-6c4c-417c-ad2a-2546d25b2363"/>
+				<reportElement x="201" y="102" width="37" height="7" uuid="df0eff69-6c4c-417c-ad2a-2546d25b2363"/>
 				<textElement textAlignment="Right" verticalAlignment="Middle">
 					<font size="4" isItalic="true"/>
 				</textElement>
-				<text><![CDATA[© star 2017]]></text>
+				<text><![CDATA[star]]></text>
 			</staticText>
 			<textField>
 				<reportElement x="35" y="86" width="26" height="11" uuid="9d716775-b776-4a59-a975-e482d95cb1aa"/>
@@ -157,7 +156,7 @@
 				<textFieldExpression><![CDATA[$F{L1_p1desc}]]></textFieldExpression>
 			</textField>
 			<textField>
-				<reportElement x="61" y="86" width="69" height="11" uuid="af54274c-8d5f-44b0-8a00-8398f755c39b"/>
+				<reportElement x="61" y="86" width="80" height="11" uuid="af54274c-8d5f-44b0-8a00-8398f755c39b"/>
 				<textElement verticalAlignment="Middle">
 					<font fontName="Apolonia" size="8"/>
 				</textElement>
@@ -171,18 +170,11 @@
 				<textFieldExpression><![CDATA[$F{L1_p2desc}]]></textFieldExpression>
 			</textField>
 			<textField>
-				<reportElement x="61" y="97" width="69" height="11" uuid="51f5a87f-924d-484b-bbc6-374dd30a97a9"/>
+				<reportElement x="61" y="97" width="80" height="11" uuid="51f5a87f-924d-484b-bbc6-374dd30a97a9"/>
 				<textElement verticalAlignment="Middle">
 					<font fontName="Apolonia" size="8"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{L1_p2word}]]></textFieldExpression>
-			</textField>
-			<textField>
-				<reportElement x="130" y="86" width="108" height="22" forecolor="#0404B3" uuid="89a5408b-3474-412c-928e-7f24e41ee8be"/>
-				<textElement verticalAlignment="Top">
-					<font fontName="Apolonia" size="8" isItalic="true"/>
-				</textElement>
-				<textFieldExpression><![CDATA[$F{L1_example}]]></textFieldExpression>
 			</textField>
 		</band>
 	</detail>
