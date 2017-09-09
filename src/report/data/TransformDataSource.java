@@ -64,13 +64,13 @@ public class TransformDataSource extends AbstractSampleApp implements JRDataSour
 
 		dataSource = new JRCsvDataSource(JRLoader.getLocationInputStream(mDataFile));
 		dataSource.setUseFirstRowAsHeader(true);
-		dataSource.setRecordDelimiter("\r\n");
+		dataSource.setRecordDelimiter("\n");
 		dataSource.setFieldDelimiter('|');
 
 		mDataArray = new ArrayList();
-		
+
 		while (dataSource.next()) {
-		
+
 			if (firstRow) {
 				mColumnNames = dataSource.getColumnNames();
 				mKeySet = mColumnNames.keySet();
@@ -79,12 +79,12 @@ public class TransformDataSource extends AbstractSampleApp implements JRDataSour
 				System.err.println("transform : " + mColumnNames);
 			}
 
-			if (totalCount % 2 == 0){ 
+			if (totalCount % 2 == 0) {
 				// Main lang
 				totalCountMain++;
 				mDataRow = new HashMap();
 			} else {
-				mDataRow = mDataArray.get(totalCountMain-1);
+				mDataRow = mDataArray.get(totalCountMain - 1);
 			}
 
 			for (int i = 0; i < mKeySetObj.length; i++) {
@@ -105,28 +105,28 @@ public class TransformDataSource extends AbstractSampleApp implements JRDataSour
 				} else {
 					// Second lang
 					mode = MODE_BACK;
-					valueTwoContainer = mDataRow.get(nameOld); 
+					valueTwoContainer = mDataRow.get(nameOld);
 					valueTwoContainer.mSecnd = new CustomValueContainer(mode, nameOld, value);
 					mDataRow.put(nameOld, valueTwoContainer);
 				}
 			}
-			
-			if (totalCount % 2 == 0){ 
+
+			if (totalCount % 2 == 0) {
 				// Main lang
 				mDataArray.add(mDataRow);
 			} else {
-				mDataArray.set(totalCountMain-1, mDataRow);
-				//System.out.println("mDataRow["+totalCountMain+"]"+mDataRow);
+				mDataArray.set(totalCountMain - 1, mDataRow);
+				// System.out.println("mDataRow["+totalCountMain+"]"+mDataRow);
 			}
-			
+
 			totalCount++;
 		}
-		
+
 		if (totalCountMain % 2 != 0) {
 			mDataRow = addEmptyDataRow(mDataArray.get(0));
 			mDataArray.add(mDataRow);
 		}
-				
+
 		reverseBack();
 
 		System.err.println("Transform time : " + (System.currentTimeMillis() - start));
@@ -231,8 +231,9 @@ public class TransformDataSource extends AbstractSampleApp implements JRDataSour
 			HashMap<String, TwoValueContainer> mDataRow2 = mDataArray.get(i + 1);
 			// 0<>1, 1<>2
 
-			//System.err.println("reverseBack["+i+"]["+mDataArray.size()+"] : " +
-			//"\n["+mDataRow1+"]\n["+mDataRow2+"]");
+			// System.err.println("reverseBack["+i+"]["+mDataArray.size()+"] : "
+			// +
+			// "\n["+mDataRow1+"]\n["+mDataRow2+"]");
 
 			java.util.Iterator<String> itr = mDataRow1.keySet().iterator();
 			while (itr.hasNext()) {
@@ -258,12 +259,15 @@ public class TransformDataSource extends AbstractSampleApp implements JRDataSour
 		String fKey = field.getName();
 		Object val = mDataRow.get(fKey);
 
-		ret = "[" + mCurrentRow + "][" + fKey + "](" + val + ")";
-		if (mMode == MODE_FRONT)
-			ret = mDataRow.get(fKey).mFirst.mValue;
-		else
-			ret = mDataRow.get(fKey).mSecnd.mValue;
-
+		ret = "";//"[" + mCurrentRow + "][" + fKey + "](" + val + ")";
+		//System.out.println(ret);
+		TwoValueContainer vals = mDataRow.get(fKey);
+		if (vals != null) {
+			if (mMode == MODE_FRONT)
+				ret = mDataRow.get(fKey).mFirst.mValue;
+			else
+				ret = mDataRow.get(fKey).mSecnd.mValue;
+		}
 		// System.err.println("getFieldValue["+mDataArray.size()+"]["+mCurrentRow+"]["+fKey+"]
 		// : " + ret.toString());
 

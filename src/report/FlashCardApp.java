@@ -19,8 +19,11 @@ import report.data.TransformDataSource;
 
 public class FlashCardApp extends AbstractSampleApp {
 
-	String our_jasper_template_jrxml = "reports/FlashKard_A4_1.jrxml";
-	String our_compiled_template_jasper = "reports/FlashKard_A4_1.jasper";
+	String reportName = "FlashKard_A4_4";
+	String reportData = "flashCard.csv";
+	
+	String our_jasper_template_jrxml = "reports/"+reportName+".jrxml";
+	String our_compiled_template_jasper = "reports/"+reportName+".jasper";
 	
 	TransformDataSource dataSource;
 	private int mMode;
@@ -42,7 +45,9 @@ public class FlashCardApp extends AbstractSampleApp {
 	{
 		long start = System.currentTimeMillis();
 
-		dataSource = new TransformDataSource("data/flashCard.csv");
+		//System.out.println(new File(".").getAbsolutePath());
+		
+		dataSource = new TransformDataSource("data/"+reportData);
 		
 		dataSource.transformFromTwo();
 		
@@ -74,8 +79,8 @@ public class FlashCardApp extends AbstractSampleApp {
 			states.add("Trial");
 			parameters.put("IncludedStates", states);
 			
-			JasperFillManager.fillReportToFile("reports/FlashKard_A4_1.jasper", parameters, dataSource);
-			System.err.println("Filling time : " + (System.currentTimeMillis() - start));
+			JasperFillManager.fillReportToFile("reports/"+reportName+".jasper", parameters, dataSource);
+			System.err.println("Filling time ["+reportName+"]: " + (System.currentTimeMillis() - start));
 		}
 		
 	}
@@ -130,6 +135,9 @@ public class FlashCardApp extends AbstractSampleApp {
 		
 	}
 	
+	/**
+	 * @param args
+	 */
 	public static void main(String[] args)
 	{
 		FlashCardApp runner;
