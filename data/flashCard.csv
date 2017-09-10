@@ -1,71 +1,147 @@
-L1_level|L1_title|L1_ident|L1_type|L1_single|L1_word|L1_plural|L1_aword|L1_p1desc|L1_p1word|L1_p2desc|L1_p2word|L1_example
-A1|Ogólne |r.m.|rzeczownik|l.p.|Ogród|l.m.|ogrody|Dop|ogrodu|Ms.|ogrodzie||
-A1|Обшее |м.р.|существительное|ед.ч.|Сад|мн.ч|сады|Рд.|саду|Пр.|саду||
-A1|Ogólne |r.m.|rzeczownik|l.p.|Książka|l.z.|książki|Dop|książki|Ms.|książce||
-A1|Обшее |ж.р.|существительное|ед.ч.|Книга|мн.ч|книги|Рд.|книги|Пр.|книге||
-A1|Ogólne |r.m.|rzeczownik|l.p.|Społeczność|l.m.|społeczności|Dop|społeczności|Ms.|społeczności||
-A1|Обшее |м.р.|существительное|ед.ч.|Сообщество|мн.ч|сообщества|Рд.||Пр.|||
-A1|Ogólne |r.m.|rzeczownik|l.p.|Księżyc  |l.m.|księżyce|Dop|księżyca|Ms.|księżycu|ludzie marzyli dostać się księżyca oraz zostać na księżycu|
-A1|Обшее |м.р.|существительное|ед.ч.|Месяц|мн.ч|месяцы|Рд.|месяца|Пр.|месяце||
-A1|Ogólne |r.m.|przyimek||Według|||||||według Herodota|
-A1|Ogólne ||предлог||Согласно||по мнению|||||по мнению Геродота|
-A1|Ogólne |dkn|czasownik ||Uruchomić|Ja|uruchomię|Ty|uruchomiesz|Ja|uruchomiłem|Aplikacja uruchamia się|
-A1|Обшее ||глагол||Запустить|Я|запускаю|Ты|запускаешь|Я|запустил|Приложение запускается|
-A1|Ogólne |r.m.|rzeczownik |l.p.|Błąd|l.m.|błędy|||||W tym zdaniu są dużo błędów|
-A1|Обшее ||существительное|ед.ч.|Ошибка|мн.ч|ошибки|||||В предложении много ошибок|
-A1|Ogólne |r.m.|rzeczownik|l.p.|Zachowanie|l.m.|zachowania|||Msc|||
-A1|Обшее ||существительное|ед.ч.|Поведение|мн.ч|поведения||||||
-A1|Ogólne |r.m.|rzeczownik|l.p.|Opinie|l.m.|opinia||||||
-A1|Обшее ||существительное|ед.ч.|Мнение|мн.ч|мнения||||||
-A1|Ogólne |r.m.|rzeczownik|l.p.|Opętanie|l.m.|opętania||||||
-A1|Обшее ||существительное|ед.ч.|Одержимость|мн.ч|одержимости||||||
-A1|Ogólne |r.z.|rzeczownik|l.p.|Bezczelność|l.m.|bezczelności|||||swoją bezczelnością zburzyl wszędzie|
-A1|Обшее |ж.р.|существительное|ед.ч.|Наглость|мн.ч|наглости||||||
-A1|Ogólne |r.m.|rzeczownik|l.p.|Czyn|l.m.|czyny||||||
-A1|Обшее ||существительное|ед.ч.|Действие|мн.ч|действия||||||
-A1|Ogólne |r.m.|rzeczownik |l.p.|Kłamstwo|l.m.|kłamstwa||kłamstwa||kłamstwu||
-A1|Обшее ||существительное|ед.ч.|Вранье|мн.ч|-||||||
-A1|Ogólne |r.m.|rzeczownik |l.p.|Rodzina|l.m.|rodziny||||||
-A1|Обшее ||существительное|ед.ч.|Семья|мн.ч|семьи||||||
-A1|Ogólne |r.m.|rzeczownik |l.p.|Rodzic|l.m.|rodzice||||||
-A1|Обшее ||существительное|ед.ч.|Родитель|мн.ч|родители||||||
-A1|Ogólne |r.m.|rzeczownik |l.p.|Rodzeństwo|l.m.|rodzeństwo||||||
-A1|Обшее ||существительное|ед.ч.|Братья сестры|мн.ч|||||||
-A1|Ogólne |r.m.|rzeczownik |l.p.|Klisza|l.m.|klisze||||||
-A1|Обшее ||существительное|ед.ч.|Фотопленка|мн.ч|фотопленки||||||
-A1|Ogólne |r.m.|rzeczownik |l.p.|Skutek|l.m.|skutki||||||
-A1|Обшее ||существительное|ед.ч.|Эффект|мн.ч|эффекты||||||
-A1|Ogólne |r.m.|rzeczownik |l.p.|Warunek|l.m.|warunki|||||w swą drogą życiową|
-A1|Обшее ||существительное|ед.ч.|Условие|мн.ч|условия||||||
-A1|Ogólne |r.m.|rzeczownik |l.p.|Przebieg|l.m.|przebiegi||||||
-A1|Обшее ||существительное|ед.ч.|Процесс|мн.ч|процессы||||||
-A1|Ogólne |r.m.|rzeczownik |l.p.|Wydarzenie|l.m.|wydarzenia||||||
-A1|Обшее ||существительное|ед.ч.|Событие|мн.ч|события||||||
-A1|Ogólne |r.m.|rzeczownik |l.p.|Obojętność|l.m.|obojętność||||||
-A1|Обшее ||существительное|ед.ч.|Безразличие|мн.ч|безразличия||||||
-A1|Ogólne |r.m.|rzeczownik |l.p.|Ustawienie|l.m.|ustawienia|||||ustawienia domyślne|
-A1|Обшее ||существительное|ед.ч.|Параметр|мн.ч|параметры|||||параметры по умолчанию|
-A1|Ogólne |r.m.|rzeczownik |l.p.|Domysł |l.m.|domysły ||||||
-A1|Обшее ||существительное|ед.ч.|Догадка|мн.ч|догадки||||||
-A1|Ogólne |r.m.|rzeczownik |l.p.|Przydomek|l.m.|przydomki||||||
-A1|Обшее ||существительное|ед.ч.|Прозвище|мн.ч|прозвища||||||
-A1|Ogólne |r.z.|rzeczownik |l.p.|Gałąź|l.m.|gałęzie||||||
-A1|Обшее |ж.р.|существительное|ед.ч.|Ветка|мн.ч|ветки||||||
-A1|Ogólne |r.m.|rzeczownik |l.p.|Lącznościowiec|l.m.|lącznościowcy||||||
-A1|Обшее |м.р.|существительное|ед.ч.|Связист|мн.ч|связисты||||||
-A1|Ogólne |r.z.|rzeczownik |l.p.|Lączność|l.m.|lączność||||||
-A1|Обшее |ж.р.|существительное|ед.ч.|Связь|мн.ч|связи||||||
-A1|Ogólne |r.m.|rzeczownik|l.p.|Przyczyna|l.m.|przyczyny||||||
-A1|Обшее |ж.р.|существительное|ед.ч.|Причина|мн.ч|причины||||||
-A1|Ogólne |r.m.|rzeczownik|l.p.|Stosunek|l.m.|stosunki|||||on ma stosunki z tą laską|
-A1|Обшее |ж.р.|существительное|ед.ч.|Связь отношение|мн.ч|связи||||||
-A1|Ogólne |r.m.|rzeczownik|l.p.|Skutek|l.m.|skutki||||||
-A1|Обшее |с.р.|существительное|ед.ч.|Следствие|мн.ч|следствия||||||
-A1|Ogólne |r.n.|rzeczownik|l.p.|Pojęcie|l.m.|pojęcia|Dop|pojęcia|Msc|pojęciu|nie mam zadnego pojęcia|
-A1|Обшее |с.р.|существительное|ед.ч.|Понятие|мн.ч|понятия|Род|понятия|Пре|понятии|без малейшего понятия|
-A1|Ogólne ||spójnik||Ponieważ|||||||ponieważ, ze względu na go osobistość oraz zachowanie musieliśmy to zrobić| 
-A1|Обшее ||союз||Потому что||||||||
-A1|Ogólne |r.m.|rzeczownik|l.p.|Parawan|l.m.|parawany||||||
-A1|Обшее |ж.р.|существительное|ед.ч.|Ширма|мн.ч|ширмы||||||
-A1|Ogólne |r.n.|rzeczownik|l.p.|Uczucie|l.m.|uczucia|||||tysiąc uczuć|
-A1|Обшее |с.р.|существительное|ед.ч.|Чувство|мн.ч|чувства||||||
+L1_level|L1_title|L1_ident|L1_type|L1_single|L1_word|L1_plural|L1_aword|L1_p1desc|L1_p1word|L1_p2desc|L1_p2word|L1_p3desc|L1_p3word|L1_example
+A2|Cechy |||wada|zły|||||||||
+A2|Cechy |||недостаток|плохой|||||||||
+A3|Cechy |||zaleta|dobry|||||||||
+A3|Cechy |||достоинство|хороший|||||||||
+A4|Cechy |||wada|bezczełny|||||||||
+A4|Cechy |||недостаток|нахальный|||||||||
+A5|Cechy |||wada|brutałny||brutałność|||||||to było brutalne przestępstwo
+A5|Cechy |||недостаток|зверский||зверство|||||||
+A6|Cechy |||wada|chamski|||||||||
+A6|Cechy |||недостаток|невоспитанный|||||||||
+A7|Cechy |||wada|wulgarny||wulgarność|||||||
+A7|Cechy |||недостаток|вульгарный|||||||||
+A8|Cechy |||wada|agresywny|||||||||
+A8|Cechy |||недостаток|агрессивный|||||||||
+A9|Cechy |||zaleta|wrażliwy|||||||||
+A9|Cechy |||достоинство|чувствительный|||||||||
+A10|Cechy |||zaleta|koleźenski|||||||||
+A10|Cechy |||достоинство|компанейский|||||||||
+A11|Cechy |||zaleta|miły|||||||||
+A11|Cechy |||достоинство|приятный|||||||||
+A12|Cechy |||zaleta|naiwny|||||||||
+A12|Cechy |||достоинство|наивный|||||||||
+A13|Cechy |||zaleta|nieśmialy|||||||||
+A13|Cechy |||достоинство|застенчивый|||||||||
+A14|Cechy |||zaleta|wstydliwy|||||||||
+A14|Cechy |||достоинство|застенчивый|||||||||
+A15|Cechy |||wada|obojętny||obojętność|||||||Czy to obojętność?
+A15|Cechy |||недостаток|безразличный||безразличие|||||||
+A16|Cechy |||zaleta|odwaźny|||||||||
+A16|Cechy |||достоинство|отважный|||||||||
+A17|Cechy |||wada|tchórzliwy|||||||||
+A17|Cechy |||недостаток|трусливый|||||||||
+A18|Cechy |||wada|samolubny |||||||||
+A18|Cechy |||недостаток|эгоистичный|||||||||
+A19|Cechy |||wada|egoista|||||||||
+A19|Cechy |||недостаток|эгоист|||||||||
+A20|Cechy |||zaleta|interesowny|||||||||
+A20|Cechy |||достоинство|любознательный|||||||||
+A21|Cechy |||zaleta|surowy|||||||||
+A21|Cechy |||достоинство|суровый|||||||||
+A22|Cechy |||zaleta|łagodny|||||||||
+A22|Cechy |||достоинство|нежный|||||||||
+A23|Cechy |||zaleta|skromny|||||||||
+A23|Cechy |||достоинство|скромный|||||||||
+A24|Cechy |||zaleta|szczery|||||||||
+A24|Cechy |||достоинство|честный|||||||||
+A25|Cechy |||wada|fałszywy|||||||||
+A25|Cechy |||недостаток|ложный|||||||||
+A26|Cechy |||wada|obłudny|||||||||
+A26|Cechy |||недостаток|лицемерный|||||||||
+A27|Cechy |||wada|dwulicowy|||||||||
+A27|Cechy |||недостаток|двуликий|||||||||
+A28|Cechy |||zaleta|źyczliwy|||||||||
+A28|Cechy |||достоинство|дружелюбный|||||||||
+A29|Cechy |||zaleta|sympatyczny|||||||||
+A29|Cechy |||достоинство|симпатический|||||||||
+A30|Cechy |||zaleta|uroczy|||||||||
+A30|Cechy |||достоинство|очаровательный|||||||||
+A31|Cechy |||zaleta|skryty|||||||||
+A31|Cechy |||достоинство|скрытный|||||||||
+A32|Cechy |||zaleta|cierpliwy|||||||||
+A32|Cechy |||достоинство|терпели́вый|||||||||
+A33|Cechy |||zaleta|spokojny|||||||||
+A33|Cechy |||достоинство|спокойный|||||||||
+A34|Cechy |||wada|nerwowy|||||||||
+A34|Cechy |||недостаток|нервный|||||||||
+A35|Cechy |||wada|wybuchowy|||||||||
+A35|Cechy |||недостаток|вспыльчивый|||||||||
+A36|Cechy |||zaleta|uprzejmy|||||||||
+A36|Cechy |||достоинство|учтивый|||||||||
+A37|Cechy |||zaleta|grzeczny|||||||||
+A37|Cechy |||достоинство|вежливый|||||||||
+A38|Cechy |||zaleta|zdolny|||||||||
+A38|Cechy |||достоинство|способный|||||||||
+A39|Cechy |||zaleta|dumny|||||||||
+A39|Cechy |||достоинство|гордый|||||||||
+A40|Cechy |||zaleta|utalentowany|||||||||
+A40|Cechy |||достоинство|одаренный|||||||||
+A41|Cechy |||zaleta|pilny|||||||||
+A41|Cechy |||достоинство|старательный|||||||||
+A42|Cechy |||zaleta|ambitny|||||||||
+A42|Cechy |||достоинство|честолюбивый|||||||||
+A43|Cechy |||zaleta|pracowity|||||||||
+A43|Cechy |||достоинство|трудолюбивый|||||||||
+A44|Cechy |||zaleta|leniwy|||||||||
+A44|Cechy |||достоинство|ленивый|||||||||
+A45|Cechy |||zaleta|obowiązkowy|||||||||
+A45|Cechy |||достоинство|обязательный|||||||||
+A46|Cechy |||zaleta|solidny|||||||||
+A46|Cechy |||достоинство|надёжный|||||||||
+A47|Cechy |||zaleta|punktualny|||||||||
+A47|Cechy |||достоинство|пунктуальный|||||||||
+A48|Cechy |||zaleta|madry|||||||||
+A48|Cechy |||достоинство|мудрый|||||||||
+A49|Cechy |||zaleta|rozwaźny|||||||||
+A49|Cechy |||достоинство|вдумчивый|||||||||
+A50|Cechy |||zaleta|rozsądny|||||||||
+A50|Cechy |||достоинство|рассуди́тельный|||||||||
+A51|Cechy |||wada|głupi|||||||||
+A51|Cechy |||недостаток|глупый|||||||||
+A52|Cechy |||zaleta|inteligentny|||||||||
+A52|Cechy |||достоинство|умный|||||||||
+A53|Cechy |||zaleta|kulturalny|||||||||
+A53|Cechy |||достоинство|культурный|||||||||
+A54|Cechy |||zaleta|wychowany|||||||||
+A54|Cechy |||достоинство|образованный|||||||||
+A55|Cechy |||zaleta|sprytny|||||||||
+A55|Cechy |||достоинство|умный|||||||||
+A56|Cechy |||zaleta|bystry|||||||||
+A56|Cechy |||достоинство|сообразительный|||||||||
+A57|Cechy |||zaleta|uparty|||||||||
+A57|Cechy |||достоинство|упрямый|||||||||
+A58|Cechy |||zaleta|elokwentny|||||||||
+A58|Cechy |||достоинство|красноречивый|||||||||
+A59|Cechy |||wada|smutny|||||||||
+A59|Cechy |||недостаток|грустный|||||||||
+A60|Cechy |||wada|ponury|||||||||
+A60|Cechy |||недостаток|тоскливый|||||||||
+A61|Cechy |||zaleta|wesoły|||||||||
+A61|Cechy |||достоинство|веселый|||||||||
+A62|Cechy |||zaleta|dowcipny z humorem|||||||||
+A62|Cechy |||достоинство|с остроумным юмором|||||||||
+A63|Cechy |||zaleta|pogodny|||||||||
+A63|Cechy |||достоинство|веселый|||||||||
+A64|Cechy |||wada|skąpy|||||||||
+A64|Cechy |||недостаток|скупой|||||||||
+A65|Cechy |||zaleta|oszczędny|||||||||
+A65|Cechy |||достоинство|экономный|||||||||
+A66|Cechy |||wada|rozrzutny|||||||||
+A66|Cechy |||недостаток|расточать|||||||||
+A67|Cechy |||zaleta|gościnny|||||||||
+A67|Cechy |||достоинство|гостеприимный|||||||||
+A68|Cechy |||zaleta|tolerancyjny|||||||||
+A68|Cechy |||достоинство|терпимый|||||||||
+A69|Cechy |||wada|zarozumiały|||||||||
+A69|Cechy |||недостаток|тщеславный|||||||||
+A70|Cechy |||zaleta|pewny sobie|||||||||
+A70|Cechy |||достоинство|уверенный в себе|||||||||
+A71|Cechy |||wada|gadatliwy|||||||||
+A71|Cechy |||недостаток|болтливый|||||||||
+A72|Cechy |||zaleta|małomowny|||||||||
+A72|Cechy |||достоинство|неразговорчивый|||||||||
+A73|Cechy |||zaleta|optymista|||||||||
+A73|Cechy |||достоинство|оптимист|||||||||
+A74|Cechy |||wada|pesymista|||||||||
+A74|Cechy |||недостаток|пессимист|||||||||

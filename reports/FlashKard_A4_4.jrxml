@@ -117,7 +117,7 @@
 			<textField pattern="">
 				<reportElement x="31" y="34" width="181" height="18" uuid="dd8bc5b3-1dc9-4348-84c8-ff7993746830"/>
 				<textElement textAlignment="Center" verticalAlignment="Middle">
-					<font fontName="Apolonia" size="16" isBold="true"/>
+					<font fontName="Apolonia" size="17" isBold="true"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{L1_word}]]></textFieldExpression>
 			</textField>
@@ -133,7 +133,7 @@
 					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
 				</reportElement>
 				<textElement textAlignment="Center" verticalAlignment="Middle">
-					<font fontName="Apolonia"/>
+					<font fontName="Apolonia" size="12"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{L1_aword}]]></textFieldExpression>
 			</textField>
@@ -158,14 +158,14 @@
 					<property name="com.jaspersoft.studio.unit.width" value="mm"/>
 				</reportElement>
 				<textElement verticalAlignment="Top">
-					<font fontName="Apolonia" size="8"/>
+					<font fontName="Apolonia" size="9"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{L1_p1desc}]]></textFieldExpression>
 			</textField>
 			<textField>
 				<reportElement x="52" y="69" width="69" height="11" uuid="af54274c-8d5f-44b0-8a00-8398f755c39b"/>
 				<textElement verticalAlignment="Top">
-					<font fontName="Apolonia" size="8"/>
+					<font fontName="Apolonia" size="9"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{L1_p1word}]]></textFieldExpression>
 			</textField>
@@ -174,21 +174,21 @@
 					<property name="com.jaspersoft.studio.unit.width" value="mm"/>
 				</reportElement>
 				<textElement verticalAlignment="Top">
-					<font fontName="Apolonia" size="8"/>
+					<font fontName="Apolonia" size="9"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{L1_p2desc}]]></textFieldExpression>
 			</textField>
 			<textField>
 				<reportElement x="52" y="80" width="69" height="11" uuid="51f5a87f-924d-484b-bbc6-374dd30a97a9"/>
 				<textElement verticalAlignment="Top">
-					<font fontName="Apolonia" size="8"/>
+					<font fontName="Apolonia" size="9"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{L1_p2word}]]></textFieldExpression>
 			</textField>
 			<textField>
 				<reportElement x="121" y="69" width="117" height="33" forecolor="#0404B3" uuid="89a5408b-3474-412c-928e-7f24e41ee8be"/>
 				<textElement verticalAlignment="Top">
-					<font fontName="Apolonia" size="8" isItalic="true"/>
+					<font fontName="Apolonia" size="9" isItalic="true"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{L1_example}]]></textFieldExpression>
 			</textField>
@@ -197,14 +197,14 @@
 					<property name="com.jaspersoft.studio.unit.width" value="mm"/>
 				</reportElement>
 				<textElement verticalAlignment="Top">
-					<font fontName="Apolonia" size="8"/>
+					<font fontName="Apolonia" size="9"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{L1_p3desc}]]></textFieldExpression>
 			</textField>
 			<textField>
 				<reportElement x="52" y="91" width="69" height="11" uuid="e9b1acf2-08a2-44b1-9f2b-eb8e000712d2"/>
 				<textElement verticalAlignment="Top">
-					<font fontName="Apolonia" size="8"/>
+					<font fontName="Apolonia" size="9"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{L1_p3word}]]></textFieldExpression>
 			</textField>
