@@ -147,8 +147,9 @@ public class FlashCardApp extends AbstractSampleApp {
 
 	@Override
 	public void test() throws JRException {
+
 		// TODO Auto-generated method stub
-		
+
 	}
 	
 	
