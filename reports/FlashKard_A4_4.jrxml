@@ -88,7 +88,7 @@
 				</graphicElement>
 			</rectangle>
 			<rectangle>
-				<reportElement x="8" y="73" width="249" height="54" backcolor="#D6FFDC" uuid="4d7dd76d-fc1b-473f-9c9b-e49ac041516f">
+				<reportElement x="8" y="73" width="250" height="54" backcolor="#D6FFDC" uuid="4d7dd76d-fc1b-473f-9c9b-e49ac041516f">
 					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
@@ -248,7 +248,7 @@
 				</graphicElement>
 			</line>
 			<line>
-				<reportElement positionType="Float" x="8" y="0" width="1" height="14" uuid="eedbff67-fb7a-46fd-b195-7d73ea526e62">
+				<reportElement positionType="Float" x="7" y="0" width="1" height="14" uuid="eedbff67-fb7a-46fd-b195-7d73ea526e62">
 					<property name="com.jaspersoft.studio.unit.height" value="mm"/>
 					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
 				</reportElement>
@@ -257,7 +257,7 @@
 				</graphicElement>
 			</line>
 			<line>
-				<reportElement positionType="Float" x="8" y="113" width="1" height="14" uuid="e8586980-b67a-4657-a7bd-e6bdeb30db29">
+				<reportElement positionType="Float" x="7" y="113" width="1" height="14" uuid="e8586980-b67a-4657-a7bd-e6bdeb30db29">
 					<property name="com.jaspersoft.studio.unit.height" value="mm"/>
 					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
 				</reportElement>
