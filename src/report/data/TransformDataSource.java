@@ -65,7 +65,7 @@ public class TransformDataSource extends AbstractSampleApp implements JRDataSour
 		dataSource = new JRCsvDataSource(JRLoader.getLocationInputStream(mDataFile));
 		dataSource.setUseFirstRowAsHeader(true);
 		dataSource.setRecordDelimiter("\n");
-		dataSource.setRecordDelimiter("\r\n");
+		//dataSource.setRecordDelimiter("\r\n");
 		dataSource.setFieldDelimiter('|');
 
 		mDataArray = new ArrayList();
@@ -141,7 +141,8 @@ public class TransformDataSource extends AbstractSampleApp implements JRDataSour
 		dataSource = new JRCsvDataSource(JRLoader.getLocationInputStream(mDataFile));
 		dataSource.setUseFirstRowAsHeader(true);
 		dataSource.setRecordDelimiter("\r\n");
-		// dataSource.setFieldDelimiter('|');
+		dataSource.setRecordDelimiter("\n");
+		dataSource.setFieldDelimiter('|');
 
 		mDataArray = new ArrayList();
 
@@ -156,7 +157,7 @@ public class TransformDataSource extends AbstractSampleApp implements JRDataSour
 				mColumnNames = dataSource.getColumnNames();
 				mKeySet = mColumnNames.keySet();
 				mKeySetObj = mKeySet.toArray();
-				// System.err.println("transform : " + mColumnNames);
+				System.err.println("transform : " + mColumnNames);
 				firstRow = false;
 			}
 
