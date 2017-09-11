@@ -65,6 +65,7 @@ public class TransformDataSource extends AbstractSampleApp implements JRDataSour
 		dataSource = new JRCsvDataSource(JRLoader.getLocationInputStream(mDataFile));
 		dataSource.setUseFirstRowAsHeader(true);
 		dataSource.setRecordDelimiter("\n");
+		dataSource.setRecordDelimiter("\r\n");
 		dataSource.setFieldDelimiter('|');
 
 		mDataArray = new ArrayList();
