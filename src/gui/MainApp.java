@@ -23,6 +23,8 @@ public class MainApp {
 
 	private JFrame frame;
 	private JTextField tfDataPath;
+	private JTextField tfTemplatePath;
+	private JTextField tfOutName;
 
 	/**
 	 * Launch the application.
@@ -61,49 +63,50 @@ public class MainApp {
 		panel_main.setLayout(sl_panel_main);
 
 		JLabel lblNewLabel = new JLabel("Path to data:");
-		sl_panel_main.putConstraint(SpringLayout.NORTH, lblNewLabel, 25, SpringLayout.NORTH, panel_main);
 		sl_panel_main.putConstraint(SpringLayout.WEST, lblNewLabel, 21, SpringLayout.WEST, panel_main);
 		panel_main.add(lblNewLabel);
 
 		tfDataPath = new JTextField();
+		sl_panel_main.putConstraint(SpringLayout.WEST, tfDataPath, 119, SpringLayout.WEST, panel_main);
+		sl_panel_main.putConstraint(SpringLayout.EAST, lblNewLabel, -22, SpringLayout.WEST, tfDataPath);
+		sl_panel_main.putConstraint(SpringLayout.SOUTH, tfDataPath, -140, SpringLayout.SOUTH, panel_main);
+		sl_panel_main.putConstraint(SpringLayout.SOUTH, lblNewLabel, 0, SpringLayout.SOUTH, tfDataPath);
 		panel_main.add(tfDataPath);
 		tfDataPath.setColumns(10);
 
 		JButton btnSelectData = new JButton("...");
+		sl_panel_main.putConstraint(SpringLayout.SOUTH, btnSelectData, -140, SpringLayout.SOUTH, panel_main);
+		sl_panel_main.putConstraint(SpringLayout.EAST, tfDataPath, -16, SpringLayout.WEST, btnSelectData);
+		sl_panel_main.putConstraint(SpringLayout.WEST, btnSelectData, -59, SpringLayout.EAST, panel_main);
 		btnSelectData.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
 				selectDataSourceDir();
 			}
 		});
-		sl_panel_main.putConstraint(SpringLayout.EAST, tfDataPath, -16, SpringLayout.WEST, btnSelectData);
-		sl_panel_main.putConstraint(SpringLayout.NORTH, btnSelectData, -5, SpringLayout.NORTH, lblNewLabel);
-		sl_panel_main.putConstraint(SpringLayout.WEST, btnSelectData, -59, SpringLayout.EAST, panel_main);
-		sl_panel_main.putConstraint(SpringLayout.EAST, btnSelectData, -10, SpringLayout.EAST, panel_main);
 		panel_main.add(btnSelectData);
 
 		JLabel lblReportTemplate = new JLabel("Report template:");
-		sl_panel_main.putConstraint(SpringLayout.NORTH, lblReportTemplate, 6, SpringLayout.SOUTH, lblNewLabel);
-		sl_panel_main.putConstraint(SpringLayout.WEST, lblReportTemplate, 0, SpringLayout.WEST, lblNewLabel);
+		sl_panel_main.putConstraint(SpringLayout.WEST, lblReportTemplate, 21, SpringLayout.WEST, panel_main);
+		sl_panel_main.putConstraint(SpringLayout.SOUTH, lblReportTemplate, -85, SpringLayout.SOUTH, panel_main);
+		sl_panel_main.putConstraint(SpringLayout.EAST, lblReportTemplate, -356, SpringLayout.EAST, panel_main);
 		panel_main.add(lblReportTemplate);
 
 		JButton btnProcess = new JButton("Process");
-		sl_panel_main.putConstraint(SpringLayout.WEST, btnProcess, 0, SpringLayout.WEST, lblNewLabel);
+		sl_panel_main.putConstraint(SpringLayout.WEST, btnProcess, 21, SpringLayout.WEST, panel_main);
 		sl_panel_main.putConstraint(SpringLayout.SOUTH, btnProcess, -10, SpringLayout.SOUTH, panel_main);
-		sl_panel_main.putConstraint(SpringLayout.EAST, btnProcess, 111, SpringLayout.WEST, panel_main);
+		sl_panel_main.putConstraint(SpringLayout.EAST, btnProcess, -356, SpringLayout.EAST, panel_main);
 		panel_main.add(btnProcess);
 
 		JComboBox cbTemplate = new JComboBox();
-		sl_panel_main.putConstraint(SpringLayout.WEST, tfDataPath, 0, SpringLayout.WEST, cbTemplate);
-		sl_panel_main.putConstraint(SpringLayout.SOUTH, tfDataPath, -6, SpringLayout.NORTH, cbTemplate);
-		sl_panel_main.putConstraint(SpringLayout.NORTH, cbTemplate, 46, SpringLayout.NORTH, panel_main);
-		sl_panel_main.putConstraint(SpringLayout.WEST, cbTemplate, 16, SpringLayout.EAST, lblReportTemplate);
+		sl_panel_main.putConstraint(SpringLayout.WEST, cbTemplate, 0, SpringLayout.WEST, tfDataPath);
 		sl_panel_main.putConstraint(SpringLayout.EAST, cbTemplate, -75, SpringLayout.EAST, panel_main);
 		panel_main.add(cbTemplate);
 
 		JButton btnSelectTemplate = new JButton("...");
-		sl_panel_main.putConstraint(SpringLayout.NORTH, btnSelectTemplate, 6, SpringLayout.SOUTH, btnSelectData);
-		sl_panel_main.putConstraint(SpringLayout.WEST, btnSelectTemplate, 0, SpringLayout.WEST, btnSelectData);
-		sl_panel_main.putConstraint(SpringLayout.EAST, btnSelectTemplate, 0, SpringLayout.EAST, btnSelectData);
+		sl_panel_main.putConstraint(SpringLayout.NORTH, btnSelectTemplate, 67, SpringLayout.NORTH, panel_main);
+		sl_panel_main.putConstraint(SpringLayout.WEST, btnSelectTemplate, 408, SpringLayout.WEST, panel_main);
+		sl_panel_main.putConstraint(SpringLayout.EAST, btnSelectTemplate, -10, SpringLayout.EAST, panel_main);
+		sl_panel_main.putConstraint(SpringLayout.EAST, btnSelectData, 0, SpringLayout.EAST, btnSelectTemplate);
 		panel_main.add(btnSelectTemplate);
 
 		JMenuBar menuBar = new JMenuBar();
@@ -122,6 +125,32 @@ public class MainApp {
 			}
 		});
 		mnFile.add(mntmExit);
+		
+		JLabel lblPathToTemplate = new JLabel("Path to template:");
+		sl_panel_main.putConstraint(SpringLayout.WEST, lblPathToTemplate, 21, SpringLayout.WEST, panel_main);
+		sl_panel_main.putConstraint(SpringLayout.SOUTH, lblPathToTemplate, -12, SpringLayout.NORTH, lblReportTemplate);
+		panel_main.add(lblPathToTemplate);
+		
+		tfTemplatePath = new JTextField();
+		sl_panel_main.putConstraint(SpringLayout.NORTH, tfTemplatePath, 68, SpringLayout.NORTH, panel_main);
+		sl_panel_main.putConstraint(SpringLayout.WEST, tfTemplatePath, 119, SpringLayout.WEST, panel_main);
+		sl_panel_main.putConstraint(SpringLayout.EAST, lblPathToTemplate, -8, SpringLayout.WEST, tfTemplatePath);
+		sl_panel_main.putConstraint(SpringLayout.EAST, tfTemplatePath, -16, SpringLayout.WEST, btnSelectTemplate);
+		tfTemplatePath.setColumns(10);
+		panel_main.add(tfTemplatePath);
+		
+		JLabel lblOutputName = new JLabel("Output name:");
+		sl_panel_main.putConstraint(SpringLayout.WEST, lblOutputName, 0, SpringLayout.WEST, lblNewLabel);
+		panel_main.add(lblOutputName);
+		
+		tfOutName = new JTextField();
+		sl_panel_main.putConstraint(SpringLayout.NORTH, lblOutputName, 3, SpringLayout.NORTH, tfOutName);
+		sl_panel_main.putConstraint(SpringLayout.NORTH, tfOutName, 122, SpringLayout.NORTH, panel_main);
+		sl_panel_main.putConstraint(SpringLayout.SOUTH, cbTemplate, -6, SpringLayout.NORTH, tfOutName);
+		sl_panel_main.putConstraint(SpringLayout.WEST, tfOutName, 0, SpringLayout.WEST, tfDataPath);
+		sl_panel_main.putConstraint(SpringLayout.EAST, tfOutName, -75, SpringLayout.EAST, panel_main);
+		tfOutName.setColumns(10);
+		panel_main.add(tfOutName);
 
 		JPanel panel_down = new JPanel();
 		frame.getContentPane().add(panel_down, BorderLayout.SOUTH);
