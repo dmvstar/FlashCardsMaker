@@ -26,10 +26,13 @@ public class FlashCardApp extends AbstractSampleApp {
 	String our_compiled_template_jasper = "reports/"+reportName+".jasper";
 	
 	TransformDataSource dataSource;
-	private int mMode;
+	private String mReportTemplate;
 	
-	public FlashCardApp(int aMode){
-		mMode = aMode;
+	public FlashCardApp(){
+	}
+	
+	public FlashCardApp(String aReportTemplate){
+		mReportTemplate = aReportTemplate;
 	}
 	
 	public void compile() throws JRException
@@ -141,7 +144,7 @@ public class FlashCardApp extends AbstractSampleApp {
 	public static void main(String[] args)
 	{
 		FlashCardApp runner;
-		runner = new FlashCardApp(TransformDataSource.MODE_FRONT);
+		runner = new FlashCardApp();
 		runner.process();
 	}
 
