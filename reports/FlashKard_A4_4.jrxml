@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Created with Jaspersoft Studio version 6.4.0.final using JasperReports Library version 6.4.1  -->
-<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="FlashKard_A4_4" columnCount="2" printOrder="Horizontal" pageWidth="595" pageHeight="841" whenNoDataType="NoPages" columnWidth="269" leftMargin="28" rightMargin="28" topMargin="28" bottomMargin="28" whenResourceMissingType="Empty" uuid="4fac68ed-03fe-4120-80a4-24267e4ba5f1">
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="FlashKard_A4_4" columnCount="2" printOrder="Horizontal" pageWidth="595" pageHeight="841" whenNoDataType="NoPages" columnWidth="268" leftMargin="28" rightMargin="28" topMargin="28" bottomMargin="28" whenResourceMissingType="Empty" uuid="4fac68ed-03fe-4120-80a4-24267e4ba5f1">
 	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="FlashCardsData"/>
 	<property name="com.jaspersoft.studio.unit." value="mm"/>
 	<queryString>
