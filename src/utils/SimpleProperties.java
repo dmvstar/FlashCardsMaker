@@ -1,5 +1,6 @@
 package utils;
 
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
@@ -14,9 +15,14 @@ public class SimpleProperties
 
     public SimpleProperties() throws InvalidPropertiesFormatException, IOException
     {
-        propertiesFilePath = "configuration.xml";
+        propertiesFilePath = ".flashcardconfig.xml";
         properties = new Properties();
 
+        File f = new File(propertiesFilePath);
+        if(!f.exists() && !f.isDirectory()) { 
+            store();
+        }
+        
         try
         {
             properties.loadFromXML(new FileInputStream(propertiesFilePath));
@@ -35,7 +41,7 @@ public class SimpleProperties
 
     public String get(String key)
     {
-        return properties.getProperty(key);
+        return properties.getProperty(key, "");
     }
 
     private void store() throws FileNotFoundException, IOException
