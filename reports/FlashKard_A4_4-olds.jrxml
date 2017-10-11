@@ -145,11 +145,11 @@
 				<textFieldExpression><![CDATA[$F{L1_type}]]></textFieldExpression>
 			</textField>
 			<textField pattern="">
-				<reportElement x="23" y="35" width="189" height="18" forecolor="#000000" uuid="dd8bc5b3-1dc9-4348-84c8-ff7993746830"/>
-				<textElement textAlignment="Center" verticalAlignment="Middle" markup="styled">
+				<reportElement x="23" y="35" width="189" height="18" uuid="dd8bc5b3-1dc9-4348-84c8-ff7993746830"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font fontName="Apolonia" size="17" isBold="true"/>
 				</textElement>
-				<textFieldExpression><![CDATA["<style forecolor=\"red\">"+$F{L1_word}.substring(0,1)+"</style>"+$F{L1_word}.substring(1)]]></textFieldExpression>
+				<textFieldExpression><![CDATA[$F{L1_word}]]></textFieldExpression>
 			</textField>
 			<textField>
 				<reportElement x="212" y="35" width="41" height="18" uuid="d759a4d4-e648-4f30-9ac8-62c2b8b9c3b8"/>
