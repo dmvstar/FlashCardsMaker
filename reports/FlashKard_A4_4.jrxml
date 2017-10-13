@@ -51,7 +51,7 @@
 				</graphicElement>
 			</rectangle>
 			<rectangle>
-				<reportElement x="66" y="0" width="192" height="22" backcolor="#FFBB80" uuid="f389b4f1-c854-4116-ba4c-39f206ec01f8">
+				<reportElement key="title.rectangle" x="66" y="0" width="192" height="22" backcolor="#FFBB80" uuid="f389b4f1-c854-4116-ba4c-39f206ec01f8">
 					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.y" value="mm"/>
