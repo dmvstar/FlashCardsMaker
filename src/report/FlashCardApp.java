@@ -81,6 +81,7 @@ public class FlashCardApp extends AbstractSampleApp {
 			states.add("Active");
 			states.add("Trial");
 			parameters.put("IncludedStates", states);
+			parameters.put("TitleColor", "#000000");
 			
 			JasperFillManager.fillReportToFile("reports/"+reportName+".jasper", parameters, dataSource);
 			System.err.println("Filling time ["+reportName+"]: " + (System.currentTimeMillis() - start));
