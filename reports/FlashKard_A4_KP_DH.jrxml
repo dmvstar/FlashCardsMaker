@@ -5,7 +5,7 @@
 	<property name="com.jaspersoft.studio.unit." value="mm"/>
 	<parameter name="TitleColor" class="java.lang.String"/>
 	<queryString>
-		<![CDATA[]]>
+	<![CDATA[]]>
 	</queryString>
 	<field name="L1_level" class="java.lang.String"/>
 	<field name="L1_title" class="java.lang.String"/>
