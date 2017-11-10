@@ -135,7 +135,11 @@
 				<textFieldExpression><![CDATA[$F{L1_type}]]></textFieldExpression>
 			</textField>
 			<textField pattern="">
-				<reportElement x="23" y="35" width="189" height="34" forecolor="#000000" uuid="dd8bc5b3-1dc9-4348-84c8-ff7993746830"/>
+				<reportElement x="14" y="35" width="198" height="38" forecolor="#000000" uuid="dd8bc5b3-1dc9-4348-84c8-ff7993746830">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
 				<textElement textAlignment="Center" verticalAlignment="Middle" markup="styled">
 					<font fontName="Apolonia" size="17" isBold="true"/>
 				</textElement>
@@ -149,8 +153,9 @@
 				<textFieldExpression><![CDATA[$F{L1_single}]]></textFieldExpression>
 			</textField>
 			<textField>
-				<reportElement x="22" y="80" width="198" height="37" forecolor="#005924" uuid="8bfe0083-36e9-4992-ad83-632c3ae7c0e4">
+				<reportElement x="14" y="73" width="239" height="44" forecolor="#005924" uuid="8bfe0083-36e9-4992-ad83-632c3ae7c0e4">
 					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
 				</reportElement>
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font fontName="Apolonia" size="13"/>
@@ -210,7 +215,7 @@
 				</graphicElement>
 			</line>
 			<textField>
-				<reportElement x="23" y="117" width="26" height="10" forecolor="#575757" uuid="ff389eb5-7561-4713-91e1-91fd32d5c7ff">
+				<reportElement x="14" y="117" width="35" height="10" forecolor="#575757" uuid="ff389eb5-7561-4713-91e1-91fd32d5c7ff">
 					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
