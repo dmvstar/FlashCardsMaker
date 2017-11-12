@@ -5,7 +5,7 @@
 	<property name="com.jaspersoft.studio.unit." value="mm"/>
 	<parameter name="TitleColor" class="java.lang.String"/>
 	<queryString>
-	<![CDATA[]]>
+		<![CDATA[]]>
 	</queryString>
 	<field name="L1_level" class="java.lang.String"/>
 	<field name="L1_title" class="java.lang.String"/>
@@ -153,7 +153,7 @@
 				<textFieldExpression><![CDATA[$F{L1_single}]]></textFieldExpression>
 			</textField>
 			<textField>
-				<reportElement x="14" y="73" width="239" height="44" forecolor="#005924" uuid="8bfe0083-36e9-4992-ad83-632c3ae7c0e4">
+				<reportElement x="14" y="73" width="239" height="54" forecolor="#005924" uuid="8bfe0083-36e9-4992-ad83-632c3ae7c0e4">
 					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
 				</reportElement>
@@ -172,7 +172,7 @@
 				<textFieldExpression><![CDATA[$F{L1_plural}]]></textFieldExpression>
 			</textField>
 			<staticText>
-				<reportElement x="227" y="117" width="26" height="6" forecolor="#5C5C5C" uuid="df0eff69-6c4c-417c-ad2a-2546d25b2363"/>
+				<reportElement x="227" y="120" width="26" height="6" forecolor="#5C5C5C" uuid="df0eff69-6c4c-417c-ad2a-2546d25b2363"/>
 				<textElement textAlignment="Right" verticalAlignment="Middle">
 					<font size="4" isItalic="true"/>
 				</textElement>
