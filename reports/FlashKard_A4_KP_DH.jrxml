@@ -215,14 +215,14 @@
 				</graphicElement>
 			</line>
 			<textField>
-				<reportElement x="14" y="117" width="35" height="10" forecolor="#575757" uuid="ff389eb5-7561-4713-91e1-91fd32d5c7ff">
+				<reportElement x="14" y="120" width="76" height="7" forecolor="#575757" uuid="ff389eb5-7561-4713-91e1-91fd32d5c7ff">
 					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
 				</reportElement>
 				<textElement verticalAlignment="Top">
-					<font fontName="Apolonia" size="8"/>
+					<font fontName="Apolonia" size="6"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{L1_counter}]]></textFieldExpression>
 			</textField>
